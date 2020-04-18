@@ -1,0 +1,94 @@
+@media(max-width: 500px) {
+  #Navbar {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  #Navbar i {
+    padding-top: 18px;
+  }
+
+.nav-menu {
+  margin-top: -20px;
+}
+
+/* Overlay */
+.container {
+position: absolute;
+top: 130px;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0,0,0,0.4);
+}
+
+.items {
+display: block;
+}
+
+.item {
+  text-align: left;
+  display: flex;
+  margin-top: -20px;
+  padding: 10px 10px;
+    }
+
+i {
+ padding: 10px;
+  height: 60px;
+ align-self: center; 
+}
+
+#what h3 {
+  text-align: justify;
+  padding-left: 20px;
+  }
+
+#what p {
+  text-align: justify;
+  padding-left: 20px;
+}
+
+#who .container-who {
+  display: block;
+}
+
+.who-img {
+  display: none;
+}
+
+#Clients .container-clients {
+  margin: -25px;
+}
+
+#Clients .text {
+  font-size: 20px;
+}
+
+.clients-img div:last-child {
+  display: none;
+}
+
+#contact {
+  display: block;
+}
+
+#contact .container-contact {
+  display: block;
+}
+
+#contact .map {
+height: 50vh;  
+}
+
+.btn-dark {
+  width: 89%;
+}
+
+}
